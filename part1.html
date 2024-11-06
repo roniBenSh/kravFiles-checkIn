@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src='https://cdn.plot.ly/plotly-2.27.0.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/0.7.7/chartjs-plugin-zoom.min.js"></script>
+
+</head>
+       
+<body>
+    <div class="studentName" id="studentName">
+      
+    </div>
+
+    <div class="Charts">
+        <canvas id="PitchChart" style="max-width:50%;"></canvas>
+        <canvas id="HeadingChart" style="max-width:50%;"></canvas>
+        <canvas id="SeaAndGroundChart" style="max-width:50%;"></canvas>
+        <canvas id="RollChart" style="max-width:50%;"></canvas>
+        <canvas id="EastAndNorthChart" style="max-width:50%;"></canvas>
+        <canvas id="SpeedChart" style="max-width:50%;"></canvas>
+        <div id='threeDGraph' style="max-width:50%;"></div>
+
+    </div>
+    <img src="pics/planePicWhite.png" id="planePic" />
+    <input type="file" id="file-input">
+    <input type="text" id="flight-number">
+    <link rel="styleSheet" href="part1.css" type="text/css">
+    <script src="part1.js" type="text/javaScript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+</body>
+
+</html>
